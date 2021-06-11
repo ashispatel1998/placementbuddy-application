@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/box_card_design"
+    android:layout_margin="5dp"
+    android:elevation="2dp"
+    android:padding="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/txtHiring4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Last Date :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/txtHiring3"
+            app:layout_constraintTop_toBottomOf="@+id/txtHiring3" />
+
+        <TextView
+            android:id="@+id/txtHiring3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Published Date :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/txtHiring2" />
+
+        <TextView
+            android:id="@+id/txtHiring2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Qualification :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/txt_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Programmer Analyst Trainee"
+            android:textColor="#4CAF50"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="@+id/cardView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toTopOf="@+id/textView12"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageMNC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cts" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txtHiring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hiring For :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <TextView
+            android:id="@+id/txt_hiring_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="2021/2022"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtHiring"
+            app:layout_constraintStart_toEndOf="@+id/txtHiring"
+            app:layout_constraintTop_toTopOf="@+id/txtHiring" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Role :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/txtHiring"
+            app:layout_constraintTop_toBottomOf="@+id/txtHiring" />
+
+        <TextView
+            android:id="@+id/txt_qualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="BE/BTech/ME/MTech/MS"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtHiring2"
+            app:layout_constraintStart_toEndOf="@+id/txtHiring2"
+            app:layout_constraintTop_toTopOf="@+id/txtHiring2" />
+
+        <TextView
+            android:id="@+id/txt_published_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="09/06/2021"
+            android:textColor="#4CAF50"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtHiring3"
+            app:layout_constraintStart_toEndOf="@+id/txtHiring3"
+            app:layout_constraintTop_toTopOf="@+id/txtHiring3" />
+
+        <TextView
+            android:id="@+id/txt_last_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="30/06/2021"
+            android:textColor="#FF5722"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtHiring4"
+            app:layout_constraintStart_toEndOf="@+id/txtHiring4"
+            app:layout_constraintTop_toTopOf="@+id/txtHiring4" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/salary_view_design"
+            app:layout_constraintEnd_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <TextView
+            android:id="@+id/txt_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5-6 LPA"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toTopOf="@+id/view2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

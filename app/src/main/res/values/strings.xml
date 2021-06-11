@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Prism</string>
+    <string name="aboutCompany">Cognizant Technology Solutions India Ltd is a leading provider of information technology, consulting, and business process services, dedicated to helping the world\'s leading companies build stronger businesses. In the latest job announcement, Cognizant India announces job vacancies for Testing Analyst posts, with a work location in Pune. Under Cognizant Pune Testing Analyst 2021 Jobs, candidates having required skills in SQL, Informatica can apply. The selected candidate will be recruited with a permanent and full-time job. An Interested and qualified candidate has to apply through online mode. Read more: https://jobalertshub.com/cognizant-pune-testing-analyst-posts</string>
+    <string-array name="passout_year_array">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="qualification_array">
+        <item>BE/BTech</item>
+        <item>BE</item>
+        <item>BTech</item>
+        <item>ME</item>
+        <item>MTech</item>
+        <item>ME/MTech</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>BBA</item>
+        <item>BCOM</item>
+        <item>BCA</item>
+        <item>Others</item>
+    </string-array>
+</resources>
